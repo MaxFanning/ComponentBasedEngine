@@ -1,0 +1,5 @@
+<Service>
+  <MinionLocationService>
+    <Float name="Delay">0.3</Float>
+  </MinionLocationService>
+</Service>

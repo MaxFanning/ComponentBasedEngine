@@ -1,0 +1,70 @@
+<GameObject>
+  <Components>
+    <TowerComponent>
+      <Template>../Data/Template/test_bullet.xml</Template>
+      <Float name="Delay">2</Float>
+      <Float name="Range">100</Float>
+    </TowerComponent>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">10</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+    </TransformComponent>
+    <ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">1</Float>
+        <Float name="y">0.5</Float>
+        <Float name="z">1</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">0</Float>
+        <Float name="g">0</Float>
+        <Float name="b">1</Float>
+        <Float name="a">1</Float>
+      </Color>
+    </ColliderComponent>
+    <ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">1.5</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">0.5</Float>
+        <Float name="y">1</Float>
+        <Float name="z">0.5</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">0</Float>
+        <Float name="g">0</Float>
+        <Float name="b">1</Float>
+        <Float name="a">1</Float>
+      </Color>
+    </ColliderComponent>
+    <ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">2.75</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">0.2</Float>
+        <Float name="y">0.2</Float>
+        <Float name="z">0.2</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">0</Float>
+        <Float name="g">1</Float>
+        <Float name="b">1</Float>
+        <Float name="a">1</Float>
+      </Color>
+    </ColliderComponent>
+  </Components>
+</GameObject>

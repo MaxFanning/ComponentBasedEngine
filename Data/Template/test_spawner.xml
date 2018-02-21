@@ -1,0 +1,33 @@
+<GameObject>
+  <Components>
+    <SpawnerComponent>
+      <Template>../Data/Template/test_minion.xml</Template>
+      <Float name="Delay">5</Float>
+    </SpawnerComponent>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">30</Float>
+        <Float name="y">40</Float>
+        <Float name="z">30</Float>
+      </Vector3>
+    </TransformComponent>
+    <ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">1</Float>
+        <Float name="y">1</Float>
+        <Float name="z">1</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">0</Float>
+        <Float name="g">0</Float>
+        <Float name="b">0</Float>
+        <Float name="a">0</Float>
+      </Color>
+    </ColliderComponent>
+  </Components>
+</GameObject>

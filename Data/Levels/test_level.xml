@@ -1,0 +1,15 @@
+<Level>
+  <GameObjects>
+    <FPSPlayer>
+      <Template>../Data/Template/fps_player.xml</Template>
+    </FPSPlayer>
+    <DuckSpawner>
+      <Template>../Data/Template/test_spawner.xml</Template>
+    </DuckSpawner>
+  </GameObjects>
+  <Services>
+    <MinionCollisionService>
+      <Template>../Data/Template/minion_service.xml</Template>
+    </MinionCollisionService>
+  </Services>
+</Level>

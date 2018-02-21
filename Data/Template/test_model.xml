@@ -1,0 +1,14 @@
+<GameObject>
+  <Components>
+    <ModelComponent>
+      <Template>../Data/Models/duck.txt</Template>
+    </ModelComponent>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+    </TransformComponent>
+  </Components>
+</GameObject>

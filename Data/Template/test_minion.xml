@@ -1,0 +1,48 @@
+<GameObject>
+  <Components>
+    <TransformComponent>
+      <Vector3 name="Position">
+        <Float name="x">2</Float>
+        <Float name="y">0</Float>
+        <Float name="z">4</Float>
+      </Vector3>
+    </TransformComponent>
+    <ColliderComponent>
+      <Vector3 name="Center">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Vector3 name="Extend">
+        <Float name="x">0.5</Float>
+        <Float name="y">0.5</Float>
+        <Float name="z">0.5</Float>
+      </Vector3>
+      <Color name="Color">
+        <Float name="r">0</Float>
+        <Float name="g">0</Float>
+        <Float name="b">0</Float>
+        <Float name="a">0</Float>
+      </Color>
+    </ColliderComponent>
+    <MinionComponent>
+      <Vector3 name="Destination">
+        <Float name="x">60</Float>
+        <Float name="y">40</Float>
+        <Float name="z">60</Float>
+      </Vector3>
+      <Float name="Speed">8</Float>
+      <Float name="LifeSpan">50</Float>
+    </MinionComponent>
+    <ModelComponent>
+      <Template>../Data/Models/duck.txt</Template>
+      <Float name="Scale">0</Float>
+      <Vector3 name="Offset">
+        <Float name="x">0</Float>
+        <Float name="y">0</Float>
+        <Float name="z">0</Float>
+      </Vector3>
+      <Float name="RotationY">0</Float>
+    </ModelComponent>
+  </Components>
+</GameObject>
